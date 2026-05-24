@@ -32,7 +32,7 @@ CRITICAL RULES TO AVOID AUDIT FAILURE (FOLLOW EXACTLY):
 4. FORMATTING: Use clean, simple text format. Do not use complex markdown tables that might break on WhatsApp. Use bullet points. 
 5. DAY-BY-DAY: Clearly label each day (e.g., "Day 1:", "Day 2:") so the parsing system can read it easily."""
 
-# Note: Depending on your langgraph version, this parameter is either 'state_modifier' or 'prompt'. 
+
 # state_modifier is the modern standard.
 planner_agent = create_react_agent(llm, tools, prompt=SYSTEM_PROMPT)
 
