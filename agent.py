@@ -15,7 +15,7 @@ load_dotenv()
 # 1. Initialize the LLM (Using Groq as requested)
 llm = ChatGroq(
     temperature=0, 
-    model_name="llama-3.1-8b-instant"  
+    model_name="llama3-8b-8192"  
 )
 
 # 2. Define the Tools
