@@ -12,10 +12,10 @@ from tools import search_flights, search_hotels, live_web_search, get_weather
 # Load environment variables
 load_dotenv()
 
-# 1. Initialize the LLM (Using Groq as requested)
+# 1. Initialize the LLM (Updated to active replacement model)
 llm = ChatGroq(
     temperature=0, 
-    model_name="llama3-8b-8192"  
+    model_name="openai/gpt-oss-20b"  
 )
 
 # 2. Define the Tools
