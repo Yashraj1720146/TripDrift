@@ -12,7 +12,7 @@ from tools import search_flights, search_hotels, live_web_search, get_weather
 # Load environment variables
 load_dotenv()
 
-# 1. Initialize the LLM (Updated to active replacement model)
+# 1. Initialize the LLM (Updated to active replacement model based on August 2026 deprecation)
 llm = ChatGroq(
     temperature=0, 
     model_name="openai/gpt-oss-20b"  
