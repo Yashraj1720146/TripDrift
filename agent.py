@@ -64,7 +64,7 @@ def planner_node(state: TravelState):
 
 def auditor_node(state: TravelState):
     print("--> [System] Pausing for 5 seconds to bypass API rate limits...")
-    time.sleep(5) 
+    time.sleep(65) 
     
     print("--> [Agent 2: Auditor] Reviewing Draft for logic and weather safety...")
     draft = state["final_itinerary"]
